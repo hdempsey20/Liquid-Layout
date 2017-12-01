@@ -1,0 +1,76 @@
+body {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #ff4444;
+  color: #efefef;
+  font-family: "Verdana", sans-serif;
+}
+
+#content {
+  overflow: auto;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h2, h3, h4 {
+  font-size: 25px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+
+}
+
+#nav, #feature, #footer {
+  margin: 1%;
+}
+
+.article_column1, .article_column2, .article_column3 {
+  width: 31.3%;
+  float: left;
+  margin: 1%;
+  color: #efefef;
+}
+#footer {
+  color: #efefef;
+}
+.article_column1 {
+  background-image: url(https://www.statisticbrain.com/wp-content/uploads/2012/11/christmas-trees-farm.jpg);
+}
+
+.article_column2 {
+  background-image: url(http://i.ebayimg.com/00/s/NTY2WDg0OQ==/z/64gAAOSwVFlUGCpA/$_32.JPG?set_id=880000500F);
+}
+
+.article_column3 {
+  margin-right: 0%;
+  background-image: url(https://media.istockphoto.com/photos/christmas-lights-picture-id526181539?k=6&m=526181539&s=612x612&w=0&h=YTaOEQrhayOaxr_kGaULmtCktwvIPd3jh3rKMh5kwCs=);
+}
+
+li {
+  display: inline;
+  padding: 0.5em;
+}
+
+#nav, #footer {
+  background-color: #34914e;
+  padding: 0.5em 0;
+}
+
+#feature, .article_column1, .article_column2, .article_column3 {
+  height: 10em;
+  margin-bottom: 1em;
+  background-color: #34914e;
+  font-size: 20px;
+}
+
+.trees, .decorations, .lights {
+  text-align: center;
+  width: 31.3%;
+  float: left;
+  margin: 1%;
+}
